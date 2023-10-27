@@ -2,8 +2,8 @@ sudo apt update
 sudo apt-get install man
 sudo apt-get install jq
 sudo apt-get install ffmpeg
-sudo apt-get install jre8
-sudo apt-get install jdk11
+sudo apt-get install default-jre
+sudo apt-get install default-jdk
 sudo apt-get install git
 sudo apt-get install tmux
 sudo apt-get install wget
