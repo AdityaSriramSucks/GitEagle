@@ -1,0 +1,129 @@
+[23:32:59] [main/INFO]: Using mbed TLS based native cipher.
+[23:32:59] [main/INFO]: Using zlib based native compressor.
+[23:32:59] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548
+[23:32:59] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[23:32:59] [main/INFO]: Epoll is working, utilising it!
+[23:33:00] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[23:33:00] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[23:33:00] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[23:33:00] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[23:33:00] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[23:33:00] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[23:33:00] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:00] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:00] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:00] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:00] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:00] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:00] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[23:33:02] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[23:33:02] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.5 by lax1dude
+[23:33:02] [main/WARN]: Could not load server icon
+java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
+	at net.md_5.bungee.api.Favicon.create(Favicon.java:80) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:89) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.github.waterfallmc.waterfall.conf.WaterfallConfiguration.load(WaterfallConfiguration.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:288) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+[23:33:02] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:02] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:02] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:02] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:02] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:02] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.20-R0.2-SNAPSHOT:c996222:548 by WaterfallMC
+[23:33:02] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[23:33:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[23:33:02] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[23:33:02] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.5 by lax1dude
+[23:33:02] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[23:33:19] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/192.168.162.11:55668]: Connected via websocket
+[23:33:19] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/192.168.162.11:55668]: Origin header is null
+[23:33:20] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/192.168.162.11:55668]: Logged in as 'ItsFireninja'
+[23:33:20] [Netty Worker IO Thread #4/INFO]: [/192.168.162.11:55668|ItsFireninja] -> UpstreamBridge has connected
+[23:33:20] [Netty Worker IO Thread #4/INFO]: [ItsFireninja|/192.168.162.11:55668] <-> ServerConnector [lobby] has connected
+[23:33:20] [Netty Worker IO Thread #4/ERROR]: [/192.168.162.11:55668|ItsFireninja] <-> DownstreamBridge <-> [lobby] - encountered exception
+java.lang.NullPointerException: null
+	at net.md_5.bungee.netty.ChannelWrapper.getEncodeProtocol(ChannelWrapper.java:51) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at net.md_5.bungee.connection.DownstreamBridge.handle(DownstreamBridge.java:156) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:132) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+[23:33:20] [Netty Worker IO Thread #4/INFO]: [ItsFireninja] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[23:33:20] [Netty Worker IO Thread #4/INFO]: [/192.168.162.11:55668|ItsFireninja] -> UpstreamBridge has disconnected
+[23:33:20] [Netty Worker IO Thread #4/INFO]: [/192.168.162.11:55668|ItsFireninja] <-> DownstreamBridge <-> [lobby] has disconnected
+[23:36:13] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/192.168.162.11:42388]: Connected via websocket
+[23:36:13] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/192.168.162.11:42388]: Origin header is null
+[23:36:13] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/192.168.162.11:42388]: Logged in as 'ItsFireninja'
+[23:36:13] [Netty Worker IO Thread #6/INFO]: [/192.168.162.11:42388|ItsFireninja] -> UpstreamBridge has connected
+[23:36:13] [Netty Worker IO Thread #6/INFO]: [ItsFireninja|/192.168.162.11:42388] <-> ServerConnector [lobby] has connected
+[23:36:14] [Netty Worker IO Thread #6/ERROR]: [/192.168.162.11:42388|ItsFireninja] <-> DownstreamBridge <-> [lobby] - encountered exception
+java.lang.NullPointerException: null
+	at net.md_5.bungee.netty.ChannelWrapper.getEncodeProtocol(ChannelWrapper.java:51) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at net.md_5.bungee.connection.DownstreamBridge.handle(DownstreamBridge.java:156) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:132) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[bungee.jar:git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:c996222:548]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+[23:36:14] [Netty Worker IO Thread #6/INFO]: [ItsFireninja] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[23:36:14] [Netty Worker IO Thread #6/INFO]: [/192.168.162.11:42388|ItsFireninja] -> UpstreamBridge has disconnected
+[23:36:14] [Netty Worker IO Thread #6/INFO]: [/192.168.162.11:42388|ItsFireninja] <-> DownstreamBridge <-> [lobby] has disconnected

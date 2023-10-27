@@ -5,14 +5,13 @@ listeners:
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
-  forced_hosts:
-    pvp.md-5.net: pvp
+  forced_hosts: {}
   ping_passthrough: false
   priorities:
   - lobby
   bind_local_address: false
   host: 127.0.0.1:25577
-  max_players: 1
+  max_players: 5
   tab_size: 60
   force_default_server: true
 remote_ping_cache: -1
@@ -31,14 +30,14 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
-stats: 962f574d-6f3f-40f8-9b2a-2c0467a28290
-player_limit: -1
+player_limit: 5
+prevent_proxy_connections: false
 ip_forward: true
 groups: {}
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: 962f574d-6f3f-40f8-9b2a-2c0467a28290
 online_mode: false
 forge_support: true
 disabled_commands:
