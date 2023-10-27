@@ -1,4 +1,4 @@
-sudo apt-get install bashInteractive
+sudo apt update
 sudo apt-get install man
 sudo apt-get install jq
 sudo apt-get install ffmpeg
