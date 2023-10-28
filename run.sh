@@ -9,5 +9,6 @@ sudo apt-get install tmux
 sudo apt-get install wget
 sudo apt-get install curl
 sudo apt-get install dialog
+sudo apt update
 chmod +x main.sh
 ./main.sh
